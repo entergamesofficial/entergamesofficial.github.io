@@ -1,0 +1,30 @@
+.text{
+    font-family: Verdana;
+}
+.link{
+    font-family: Verdana;
+    color: #0066cc;
+    text-decoration: none;
+}
+.link:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+body{
+    background-image: url("../Images/Background.png");
+    background-size: cover;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+.maintext {
+    font-family: fantasy;
+    font-size: 70px;
+    text-decoration: none;
+}
+.slogan {
+    font-family: Verdana;
+}
+.avatar img{
+    width: 70px; 
+    height: 70px;
+}
