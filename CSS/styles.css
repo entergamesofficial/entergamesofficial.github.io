@@ -11,7 +11,7 @@
   text-decoration: none;
 }
 body{
-    background-image: url("../Images/Background.png");
+    background-image: url("../Images/Background.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -61,5 +61,9 @@ body{
 
   .card img {
     width: 40%;
+  }
+
+  .maintext {
+   font-size: 40px; 
   }
 }
