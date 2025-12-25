@@ -12,6 +12,8 @@
 }
 body{
     background-image: url("../Images/Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
@@ -24,29 +26,40 @@ body{
 .slogan {
     font-family: Verdana;
 }
-.squad-list {
-  display: flex;
-  justify-content: flex-start;
-  gap: 40px;
-  list-style: none;
-  padding: 0;
-  flex-wrap: wrap;
-}
-
-.member {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 250px;
-  text-align: center;
-}
-.avatar img {
-  width: 120px;
-  height: auto;
-  border-radius: 10px;
-}
 .link h3 {
   margin: 10px 0 0;
   font-size: 1.1em;
 }
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  list-style: none;
+  padding: 0;
+  justify-content: flex-start;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  max-width: 300px;
+  min-width: 200px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: none;
+  }
 
+  .card img {
+    width: 40%;
+  }
+}
